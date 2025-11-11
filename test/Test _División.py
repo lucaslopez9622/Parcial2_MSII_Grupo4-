@@ -1,5 +1,5 @@
 
-from fubciones.Division import dividir
+from funciones.Division import dividir
 
 def test_dividir_numero_positivo():
     assert dividir(10, 2) == 5
