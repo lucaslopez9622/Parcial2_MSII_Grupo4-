@@ -1,0 +1,14 @@
+
+from funciones.Division import dividir
+
+def test_dividir_numero_positivo():
+    assert dividir(10, 2) == 5
+
+def test_dividir_numero_negativo():
+    assert dividir(-9, 3) == -3
+
+def test_dividir_decimal():
+    assert dividir(7, 2) == 3.5
+
+def test_dividir_por_cero():
+    assert dividir(5, 0) is None
